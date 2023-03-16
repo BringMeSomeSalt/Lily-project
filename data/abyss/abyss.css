@@ -1,0 +1,33 @@
+html {
+    background-color: #000826c1;
+}
+h1{
+    color: azure;
+}
+nav{
+    font-size: 20px;
+    color: azure;
+}
+.topnav {
+    background-color: none;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover{
+    color:burlywood;
+}
+.topnav a.active{
+    color:blanchedalmond; 
+}
+.list a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
