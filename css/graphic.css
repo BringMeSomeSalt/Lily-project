@@ -1,10 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
 h1{
-    color: azure;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #8d58ff;
+    font-family: 'Quicksand', sans-serif;
+    ;
+}
+
+h1:before{
+    content: '';
+    background:  #fe3a80;
+    opacity: .5;
+    filter: blur(40px);
 }
 nav{
-    font-size: 30px;
-    color: azure;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #8d58ff;
+    font-family: 'Quicksand', sans-serif;
 }
 .topnav {
     background-color: none;
