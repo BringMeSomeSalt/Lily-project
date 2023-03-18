@@ -11,6 +11,9 @@ nav{
 .topnav {
     background-color: none;
     overflow: hidden;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 .topnav a {
     float: left;
@@ -31,4 +34,37 @@ nav{
     font-size: 20px;
     color: white;
     text-decoration: none;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: pointer;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+.clearfix {
+    overflow: hidden;
+    clear: both;
+}
+section{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 10px;
 }

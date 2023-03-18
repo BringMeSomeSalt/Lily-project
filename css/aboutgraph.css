@@ -13,6 +13,9 @@ main{
 .topnav {
     background-color: none;
     overflow: hidden;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 .topnav a {
     float: left;
