@@ -1,14 +1,14 @@
 html {
-    background-color: #000826c1;
+    background-color: rgb(26, 26, 46);
 }
 h1{
-    color: azure;
+    color: rgb(221, 221, 221);
 }
 main{
     width: 1000px;
     height: 100px;
     font-size: 20px;
-    color: azure;
+    color: rgb(221, 221, 221);
 }
 .topnav {
     background-color: none;
@@ -19,7 +19,7 @@ main{
 }
 .topnav a {
     float: left;
-    color: white;
+    color: rgb(221, 221, 221);
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;

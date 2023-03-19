@@ -1,15 +1,12 @@
 html {
-    background-color: #000826c1;
+    background-color: rgb(26, 26, 46);
 }
 h1{
-    color: azure;
+    color: rgb(221, 221, 221);
 }
 nav{
     font-size: 20px;
-    color: azure;
-}
-.list ul{
-    list-style-type: none;
+    color: rgb(221, 221, 221);
 }
 .topnav {
     background-color: none;
@@ -20,7 +17,7 @@ nav{
 }
 .topnav a {
     float: left;
-    color: white;
+    color: rgb(221, 221, 221);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,7 +32,7 @@ nav{
 }
 .list a{
     font-size: 20px;
-    color: white;
+    color: rgb(173, 173, 210);
     text-decoration: none;
 }
 .card {
@@ -49,11 +46,12 @@ nav{
     font-size: 14px;
 }
 .card button {
-    border: none;
+    box-shadow: rgb(71, 223, 156);
+    border: rgb(71, 223, 156);
     outline: 0;
     padding: 12px;
-    color: white;
-    background-color: #000;
+    color: #1F1B24;
+    background-color: #CF6679;
     text-align: pointer;
     cursor: pointer;
     width: 100%;

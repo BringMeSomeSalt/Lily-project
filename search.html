@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/aboutgraph.css" />
+    <title>Lily project</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        #myInput {
+          background-position: 10px 12px;
+          background-repeat: no-repeat;
+          width: 100%;
+          font-size: 16px;
+          padding: 12px 20px 12px 40px;
+          border: 1px solid rgb(15, 15, 26);
+          margin-bottom: 12px;
+        }
+        
+        #myUL {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+        
+        #myUL li a {
+          border: 1px solid rgb(15, 15, 26);
+          margin-top: -1px; /* Prevent double borders */
+          background-color: rgb(15, 15, 26);
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px;
+          color: rgb(184, 186, 186);
+          display: block
+        }
+        
+        #myUL li a:hover:not(.header) {
+          background-color: rgb(15, 15, 26);
+        }
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">home</a>
+        <a href="list.html">list</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+        <a class="active" href="search.html">search</a>
+    </div>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    
+    <ul id="myUL">
+      <li><a href="https://drive.google.com/drive/folders/1m0t1bR8H1Qz2joh5uJ6DoVK-ehhOpFjq?usp=sharing">Another</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1-81kWbhETnwIKmSa1A0mayaamTZol46u?usp=share_link">Asobi Asobase</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1R8fJjLDOC_xsX2NXNcIAmVNDGpx9C7Vq?usp=sharing">Bocchi the rock</a></li>
+      <li><a href="beast.html">Beastars</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1KSRhP2eiq3GHMzWu0FD0zeAuhqLpicO7?usp=sharing">Bunny Girl Senpai</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1Yj0jUtg4UHG8eOsUO8_vJjnLtXo9LHjg?usp=sharing">Charlotte</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1UAePgh8oDz4n6lZdl6OL6Zf1GzBbFwMM?usp=sharing">Call of the Night</a></li>
+      <li><a href="cote.html">Classroom of the Elite</a></li>
+      <li><a href="clannad.html">Clannad</a></li>
+      <li><a href="eva.html">Evangelion</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1Xt7ZbY1LLlFLCWVKd4cYs6pdG-PG3lft?usp=sharing">I want to Eat Your Pancreas</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1tW3-f2K5eEP0IU-3Vp6UR5XzIO6JNltg?usp=sharing">Josee, the Tiger and the Fish</a></li>
+      <li><a href="ttps://drive.google.com/drive/folders/1HHVgVkXITayAg4eh9ARgbeQ-Uv0yBa3m?usp=sharing">Lucky Star</a></li>      
+      <li><a href="https://drive.google.com/drive/folders/1X_81UbD9oChv7vbJQplwLEylq5WWaYZ2?usp=sharing">Monogatari series</a></li>
+      <li><a href="abyss.html">Made in Abyss</a></li>
+      <li><a href="koba.html">Miss Kobayashi’s Dragon Maid</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1FGfbmNIcf1ej9ssp6mGxs-Bv9lHaQlOX">Nichijou</a></li>
+      <li><a href="oregairu.html">Oregairu</a></li>
+      <li><a href="coming.html">Onimai</a></li>
+      <li><a href="madoka.html">Puella Magi Madoka Magica</a></li>
+      <li><a href="stein.html">Steins;Gate</a></li>
+      <li><a href="saekano.html">Saekano</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1jKzFQnIqSsmLc9xOk3PmvG4wO4LsEGAH?usp=sharing">School-Live!</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1Gu0zMblgsqF6zI4Nf8rmANbQ3VuvmCOw?usp=sharing">Summertime Render</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1QCPMZdt4adXs8HYUcuD3A8rglE7vOMed?usp=sharing">The Garden of Words</a></li>
+      <li><a href="https://drive.google.com/drive/folders/12C02kC3AFQN2Y3E1aBHEWxJNmB5aGn_E?usp=sharing">The Eminence in Shadow</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1duSYPiMwKWWwSo3wufbcEevQm59eee8B?usp=sharing">Tomo-chan Is a Girl</a></li>
+      <li><a href="https://drive.google.com/file/d/1FlpUTK8UagDvRmPxExqNPdhGTIPzsHPk/view?usp=sharing">Weathering with you</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1QA7yB3d2sInZyCe1PqxHboG_3bR5kTcC?usp=sharing">Your name</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1jJP1XepBWH5giSWcUCmsZvDzyTk4Gay2?usp=sharing">Your Lie in April</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1E4ma_vZkqPF-_1G74SLHVZyvTRqLsZb3?usp=sharing">5 Centimeters Per Second</a></li>
+    </ul>
+    
+    <script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+    </script>
+    
+</body>
+</html>
