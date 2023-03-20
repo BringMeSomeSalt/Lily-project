@@ -34,6 +34,7 @@ nav{
     font-size: 20px;
     color: rgb(173, 173, 210);
     text-decoration: none;
+    list-style-type: none;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -101,4 +102,7 @@ section{
         font-family: arial;
         font-size: 14px;
     }
+}
+.list{
+    list-style-type: none;
 }
