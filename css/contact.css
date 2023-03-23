@@ -34,6 +34,7 @@ main{
 }
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: table;
     max-width: 300px;
     margin: auto;
     text-align: center;
