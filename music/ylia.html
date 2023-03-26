@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./music.css">
+    <!-- defer scripts are only executed after the entire document has been loaded. -->
+    <script src="script.js" defer></script>
+    <title>Lily project</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="../index.html">home</a>
+        <a class="active" href="../list.html">list</a>
+        <a href="../about.html">about</a>
+        <a href="../contact.html">contact</a>
+        <a href="../search.html">search</a>
+    </div>
+    <center>
+    <div class="pulsing"></div>
+    <div class="card">
+        <div class="card-header">
+            <div class="img-container">
+                <img src="./file/ylia.png" 
+                alt="singer image" id="songImg">
+            </div>
+            <p class="title" id="title">Your lie in April OST disc 1</p>
+        </div>
+
+        <div class="progress-container" id="progressContainer">
+            <span class="progress" id="progress"></span>
+        </div>
+
+        <audio src="./file/Shigatsu wa Kimi no Uso OST disc 1.mp3" 
+        id="player"></audio>
+        <div class="controls">
+            <button class="control" id="prevBtn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button class="control play" id="playBtn">
+                <i class="fas fa-play"></i>
+                <i class="fas fa-pause"></i>
+            </button>
+            <button class="control" id="nextBtn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+    </center>
+
+</body>
+
+</html>
